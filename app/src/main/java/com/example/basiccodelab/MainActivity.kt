@@ -132,7 +132,7 @@ fun CardContent(modifier: Modifier = Modifier, name: String){
     Row(modifier = modifier
         .fillMaxWidth()
         .padding(24.dp)){
-        Column(modifier = Modifier
+        Column(modifier = modifier
             .weight(1f)
             .padding(bottom = extraPadding.coerceAtLeast(0.dp))){
             Text(
